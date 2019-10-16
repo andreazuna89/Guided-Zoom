@@ -1,6 +1,6 @@
 This is a repository containing the code used in
 
-> [Sarah Adel Bargal*, Andrea Zunino*, Vitali Petsiuk, Jianming Zhang, Kate Saenko, Vittorio Murino, Stan Sclaroff. "Guided Zoom: Questioning Network Evidence for Fine-grained Classification". BMVC 2019 (oral)](https://arxiv.org/abs/1812.02626)
+> [Sarah Adel Bargal*, Andrea Zunino*, Vitali Petsiuk, Jianming Zhang, Kate Saenko, Vittorio Murino, Stan Sclaroff. "Guided Zoom: Questioning Network Evidence for Fine-grained Classification". BMVC 2019 (oral)](https://bmvc2019.org/wp-content/uploads/papers/0061-paper.pdf)
 
 __This software implementation is provided for academic research and non-commercial purposes only.  This implementation is provided without warranty.__
 
