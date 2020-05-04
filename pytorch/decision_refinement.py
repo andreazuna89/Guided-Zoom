@@ -1,3 +1,7 @@
+## SCRIPT FOR THE FINAL DECISION REFINEMENT 
+## COMMAND TO USE:
+# python decision_refinement.py --dataset NAME_DATASET --top_classes TOP_CLASSES_CONSIDERED --EVID_type EVIDENCE_CNN_TYPE
+
 import numpy as np
 import cPickle
 import argparse
@@ -7,10 +11,11 @@ import pickle
 parser = argparse.ArgumentParser()
 parser.add_argument("--dataset")
 parser.add_argument("--top_classes") #top classes
+parser.add_argument("--EVID_type")
 args = parser.parse_args()
 
 
-with open(args.dataset + '_softmax.pkl') as f:
+with open('./softmax_saved/'+args.dataset + '_softmax_'+str(args.EVID_type)+'.pkl') as f:
   data_dict=cPickle.load(f)
 
 tc = 5
